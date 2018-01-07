@@ -8,7 +8,7 @@
 
         <div class="right">
 
-          <a class="title" href="#">如何建立个人博客</a>
+          <a class="title" @click="detail()">如何建立个人博客</a>
           <div class="inrow">
             <span>发布时间： 2014-06-05 10:24:00</span>
             <span>分类：学无止境</span>
@@ -27,7 +27,7 @@
 
         <div class="right">
 
-          <a class="title" href="#">如何建立个人博客</a>
+          <a class="title" @click="detail()">如何建立个人博客</a>
           <div class="inrow">
             <span>发布时间： 2014-06-05 10:24:00</span>
             <span>分类：学无止境</span>
@@ -46,7 +46,7 @@
 
         <div class="right">
 
-          <a class="title" href="#">如何建立个人博客</a>
+          <a class="title" @click="detail()">如何建立个人博客</a>
           <div class="inrow">
             <span>发布时间： 2014-06-05 10:24:00</span>
             <span>分类：学无止境</span>
@@ -65,7 +65,7 @@
 
         <div class="right">
 
-          <a class="title" href="#">如何建立个人博客</a>
+          <a class="title" @click="detail()">如何建立个人博客</a>
           <div class="inrow">
             <span>发布时间： 2014-06-05 10:24:00</span>
             <span>分类：学无止境</span>
@@ -92,6 +92,17 @@
     name: 'techBlog',
     data() {
       return {}
+    },
+    methods:{
+      detail:function (req) {
+        this.$router.push({
+          path:'/detail',
+          name:'detail',
+          params:{
+            id:123
+          }
+        })
+      }
     }
   }
 </script>

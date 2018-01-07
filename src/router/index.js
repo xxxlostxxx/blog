@@ -16,13 +16,21 @@ export default new Router({
           path:'/techBlog',
           component:resolve => require(['../components/contents/techBlog.vue'],resolve)
 
+        },
+        {
+          path:'/detail',
+          name:'detail',
+          params:{
+            id:'id'
+          },
+          component:resolve => require(['../components/contents/detail.vue'],resolve)
         }/*,
         {
           path:'/techBlog',
           component:resolve => require(['../components/contents/techBlog.vue'],resolve)
         }*/
       ]
-    },
+    }
 
   ]
 })
