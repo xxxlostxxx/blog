@@ -8,7 +8,7 @@
 
         <div class="right">
 
-          <a class="title" @click="detail()">如何建立个人博客</a>
+          <a class="title" @click="detail()">gab</a>
           <div class="inrow">
             <span>发布时间： 2014-06-05 10:24:00</span>
             <span>分类：学无止境</span>
@@ -116,7 +116,7 @@
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
+    -webkit-padding-start:0px;
     width: 1000px;
     margin: 0 auto;
   }

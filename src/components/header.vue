@@ -77,7 +77,7 @@
         items: [
           {
             icon: 'el-icon-setting',
-            index: 'homePage',
+            index: '/',
             title: '首页'
           },
           {
@@ -90,24 +90,24 @@
                 title: '技术博客'
               },
               {
-                index: 'vuetable',
+                index: 'essay',
                 title: '随笔'
               },
               {
-                index:'3',
+                index:'gab',
                 title:'瞎扯'
               }
             ]
           },
           {
             icon: 'el-icon-date',
-            index: '3',
+            index: 'profile',
             title: 'profile',
 
           },
           {
             icon: 'el-icon-star-on',
-            index: 'basecharts',
+            index: 'comment',
             title: '留言'
           }
         ]
@@ -153,6 +153,13 @@
   }
 
   .banner {
+    display: block;
     height: 250px;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .sidebar{
+    width: 1000px;
+    margin: 0 auto;
   }
 </style>

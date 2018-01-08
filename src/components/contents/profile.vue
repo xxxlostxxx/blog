@@ -8,7 +8,7 @@
 
         <div class="right">
 
-          <a class="title" @click="detail()">如何建立个人博客</a>
+          <a class="title" @click="detail()">人物简介</a>
           <div class="inrow">
             <span>发布时间： 2014-06-05 10:24:00</span>
             <span>分类：学无止境</span>

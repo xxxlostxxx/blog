@@ -15,4 +15,9 @@ export default {
  .app{
    background-image: url("../static/imgs/back2.jpg");
  }
+ body{
+
+   background-color: #efefef;
+
+ }
 </style>

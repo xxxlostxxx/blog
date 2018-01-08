@@ -13,8 +13,32 @@ export default new Router({
       component: homePage,
       children:[
         {
+          path:'/',
+          component:resolve => require(['../components/contents/first.vue'],resolve)
+        },
+        {
           path:'/techBlog',
           component:resolve => require(['../components/contents/techBlog.vue'],resolve)
+
+        },
+        {
+          path:'/essay',
+          component:resolve => require(['../components/contents/essay.vue'],resolve)
+
+        },
+        {
+          path:'/gab',
+          component:resolve => require(['../components/contents/gab.vue'],resolve)
+
+        },
+        {
+          path:'/profile',
+          component:resolve => require(['../components/contents/profile.vue'],resolve)
+
+        },
+        {
+          path:'/comment',
+          component:resolve => require(['../components/contents/comment.vue'],resolve)
 
         },
         {
@@ -24,11 +48,7 @@ export default new Router({
             id:'id'
           },
           component:resolve => require(['../components/contents/detail.vue'],resolve)
-        }/*,
-        {
-          path:'/techBlog',
-          component:resolve => require(['../components/contents/techBlog.vue'],resolve)
-        }*/
+        }
       ]
     }
 
