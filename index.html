@@ -4,6 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>blog</title>
+    <script type="text/javascript">
+      window.onload = function(){
+        //去掉默认的contextmenu事件，否则会和右键事件同时出现。
+        document.oncontextmenu = function(e){
+          e.preventDefault();
+        };
+        document.getElementById("app").onmousedown = function(e){
+          if(e.button ==2){
+            console.log("你点了右键");
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>

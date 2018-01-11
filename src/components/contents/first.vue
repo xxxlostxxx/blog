@@ -1,4 +1,7 @@
 <template>
+<div>
+
+
 
 
   <ul class="list">
@@ -8,7 +11,7 @@
 
         <div class="right">
 
-          <a class="title" @click="detail()">如何建立个人博客</a>
+          <a class="title" @click="detail()">fffewe</a>
           <div class="inrow">
             <span>发布时间： 2014-06-05 10:24:00</span>
             <span>分类：学无止境</span>
@@ -82,7 +85,7 @@
 
   </ul>
 
-
+</div>
 </template>
 
 <script>
@@ -125,7 +128,7 @@
     list-style: none;
     padding: 25px 0;
     border-bottom: 1px solid #f0f0f0;
-    background-color: #fff;
+   /* background-color: #fff;*/
     margin-bottom: 20px;
   }
 
@@ -151,5 +154,6 @@
     margin-left: 50px;
 
   }
+
 
 </style>

@@ -4,7 +4,7 @@
   <ul class="list">
     <li class="no1">
       <div class="content">
-        <img class="news-list-img" src="../../../static/imgs/peitu.jpg" width="215" height="144" alt="如何建立个人博客？">
+        <img class="news-list-img" src="../../../static/imgs/peitu.jpg"  alt="如何建立个人博客？">
 
         <div class="right">
 
@@ -23,7 +23,7 @@
     </li>
     <li>
       <div class="content">
-        <img class="news-list-img" src="../../../static/imgs/peitu.jpg" width="215" height="144" alt="如何建立个人博客？">
+        <img class="news-list-img" src="../../../static/imgs/peitu.jpg"  alt="如何建立个人博客？">
 
         <div class="right">
 
@@ -42,7 +42,7 @@
     </li>
     <li>
       <div class="content">
-        <img class="news-list-img" src="../../../static/imgs/peitu.jpg" width="215" height="144" alt="如何建立个人博客？">
+        <img class="news-list-img" src="../../../static/imgs/peitu.jpg"  alt="如何建立个人博客？">
 
         <div class="right">
 
@@ -61,7 +61,7 @@
     </li>
     <li>
       <div class="content">
-        <img class="news-list-img" src="../../../static/imgs/peitu.jpg" width="215" height="144" alt="如何建立个人博客？">
+        <img class="news-list-img" src="../../../static/imgs/peitu.jpg"  alt="如何建立个人博客？">
 
         <div class="right">
 
@@ -125,7 +125,7 @@
     list-style: none;
     padding: 25px 0;
     border-bottom: 1px solid #f0f0f0;
-    background-color: #fff;
+   /* background-color: #fff;*/
     margin-bottom: 20px;
   }
 
@@ -150,6 +150,12 @@
     display: block;
     margin-left: 50px;
 
+  }
+  img{
+    opacity: 0.5;
+    border-radius:50%;
+    width: 144px;
+    height:144px;
   }
 
 </style>
