@@ -7,7 +7,7 @@
   <ul class="list">
     <li class="no1">
       <div class="content">
-        <img class="news-list-img" src="../../../static/imgs/peitu.jpg" width="215" height="144" alt="如何建立个人博客？">
+        <img class="news-list-img" src="../../../static/imgs/rabbit.gif" width="215" height="144" alt="如何建立个人博客？">
 
         <div class="right">
 
@@ -26,7 +26,7 @@
     </li>
     <li>
       <div class="content">
-        <img class="news-list-img" src="../../../static/imgs/peitu.jpg" width="215" height="144" alt="如何建立个人博客？">
+        <img class="news-list-img" src="../../../static/imgs/rabbit.gif" width="215" height="144" alt="如何建立个人博客？">
 
         <div class="right">
 
@@ -45,7 +45,7 @@
     </li>
     <li>
       <div class="content">
-        <img class="news-list-img" src="../../../static/imgs/peitu.jpg" width="215" height="144" alt="如何建立个人博客？">
+        <img class="news-list-img" src="../../../static/imgs/rabbit.gif" width="215" height="144" alt="如何建立个人博客？">
 
         <div class="right">
 
@@ -64,7 +64,7 @@
     </li>
     <li>
       <div class="content">
-        <img class="news-list-img" src="../../../static/imgs/peitu.jpg" width="215" height="144" alt="如何建立个人博客？">
+        <img class="news-list-img" src="../../../static/imgs/rabbit.gif" width="215" height="144" alt="如何建立个人博客？">
 
         <div class="right">
 

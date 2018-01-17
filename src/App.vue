@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="out_circle">
+  <!--  <div class="out_circle">
       <div class="slide"></div>
       <div class="nav_circle r1">
         <div class="img_top img">
@@ -42,7 +42,10 @@
           <a href="#">代理授权</a>
         </div>
       </div>
-    </div>
+    </div>-->
+
+
+
     <router-view/>
 
 
@@ -65,19 +68,30 @@ export default {
  }
  body{
 
-   background-color: #efefef;
+   background-color: #fffbf0;
+
+   font-size: 18px;
+   color: #2c353d;
+
 
  }
  .circle{
 
  }
+
+
+
+ img{
+   width:100px;
+   height: 100px;
+ }
  .circle div{
 
 
-   width: 300px;
+   width: 30px;
    height:30px;
    border-radius: 50%;
-   margin: 200px auto;
+   margin: 100px auto;
    background-color: black;
    transform:rotate(0deg) skew(0deg) scale(1);
    -ms-transform:rotate(0deg) skew(0deg) scale(1);     /* IE 9 */

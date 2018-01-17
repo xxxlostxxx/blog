@@ -1,6 +1,6 @@
 <template>
   <div class="vHead">
-    <img class="banner" src="../../static/imgs/banner1.png">
+    <img class="banner" src="../../static/imgs/bannner.jpg">
     <!--<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
       <el-menu-item index="1">处理中心</el-menu-item>
       <el-submenu index="2">
@@ -31,9 +31,19 @@
       <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">留言</a></el-menu-item>
     </el-menu>-->
 
-
+    <nav id="nav">
+      <ul>
+        <li ><router-link to="/">网站首页</router-link></li>
+        <li><router-link to="/techBlog">博客</router-link></li>
+        <li><router-link to="/techBlog">技术博客</router-link></li>
+        <li><router-link to="/essay">随笔</router-link ></li>
+        <li><router-link to="/gab">瞎扯</router-link></li>
+        <li><router-link to="/profile">profile</router-link></li>
+        <li><router-link to="/comment">留言</router-link></li>
+      </ul>
+    </nav>
   <div class="sidebar">
-    <el-menu
+  <!--  <el-menu
       :default-active="onRouters"
       mode="horizontal"
       background-color="#409eff"
@@ -58,7 +68,7 @@
       </template>
 
 
-    </el-menu>
+    </el-menu>-->
 
   </div>
 
@@ -115,8 +125,14 @@
     },
     computed:{
       onRouters(){
-        console.log('onrouters');
-        return this.$route.path.replace('/','');
+        this.$router.push({
+          path:'/techBlog',
+          name:'',
+          params:{
+            id:123
+          }
+        })
+       // return this.$route.path.replace('/','');
       }
     }
   }
@@ -128,18 +144,41 @@
     font-weight: normal;
   }
 
-  ul {
-    list-style-type: none;
-    padding: 0;
+  #nav{
+    width: 100%;
+    line-height:40px;
+    height:40px;
+    margin:0 auto;
+    background:rgba(245,245,245,0.2);
+    position: relative;
   }
 
-  li {
+  #nav ul{
+    list-style: none;
+    margin: auto;
+    width: 1030px;
+  }
+
+  #nav ul li {
+    float: left;
+    width: 100px;
+    text-align: center;
+    text-shadow: #333 1px 1px 1px;
     display: inline-block;
-    margin: 0 10px;
   }
+  #nav ul li a{
+    color: #000;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
 
-  a {
-    color: #42b983;
+  }
+  #nav ul li a:hover{
+    transition: all 0.5s;
+    background-color: #aaa;
+    border-radius:50px 0;
+    font-weight:bold;
+    font-style: italic;
   }
 
   img {
